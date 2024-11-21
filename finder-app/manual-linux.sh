@@ -127,7 +127,7 @@ cp ${FINDER_APP_DIR}/conf/assignment.txt ${OUTDIR}/rootfs/home/conf/
 cp ${FINDER_APP_DIR}/writer.sh ${OUTDIR}/rootfs/home/
 
 
-cp /home/jaumas/UNI/Boulder_Embedded_Linux/ASSIGNMENTS/assignments-3-and-later-jaimeibanezrivera/finder-app/autorun-qemu.sh ${OUTDIR}/rootfs/home/
+cp ${FINDER_APP_DIR}/autorun-qemu.sh ${OUTDIR}/rootfs/home/
 
 # Chown the root directory
 sudo chown -R root:root ${OUTDIR}/rootfs
