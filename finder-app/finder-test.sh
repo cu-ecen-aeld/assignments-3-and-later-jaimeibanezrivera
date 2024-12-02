@@ -16,8 +16,8 @@ if [ ! -d /etc/finder-app/conf ]; then
     exit 1
 fi
 
-# Run the finder script with the required arguments
-/usr/bin/finder.sh /var/log /etc/finder-app/conf > /tmp/finder-output.txt
+# Run the finder script and write output to /tmp/assignment4-result.txt
+/usr/bin/finder.sh /var/log /etc/finder-app/conf > /tmp/assignment4-result.txt
 
 # Test completed successfully
-echo "Test completed. Output written to /tmp/finder-output.txt."
+echo "Test completed. Output written to /tmp/assignment4-result.txt."
